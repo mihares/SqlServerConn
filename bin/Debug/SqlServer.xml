@@ -1,0 +1,211 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SqlServer
+</name>
+</assembly>
+<members>
+<member name="P:SqlServer.My.Resources.Resources.ResourceManager">
+	<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member><member name="P:SqlServer.My.Resources.Resources.Culture">
+	<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso con establecimiento inflexible de tipos.
+</summary>
+</member><member name="T:SqlServer.My.Resources.Resources">
+	<summary>
+  Clase de recurso con establecimiento inflexible de tipos, para buscar cadenas traducidas, etc.
+</summary>
+</member><member name="P:SqlServer.DatosGlobales.DatosGlobales.Servidor">
+	<summary> 
+ Nombre del equipo servidor de datos. 
+ </summary>
+</member><member name="P:SqlServer.DatosGlobales.DatosGlobales.Base">
+	<summary> 
+ Nombre de la base de datos a utilizar. 
+ </summary>
+</member><member name="P:SqlServer.DatosGlobales.DatosGlobales.Ususario">
+	<summary> 
+ Nombre del Usuario de la BD. 
+ </summary>
+</member><member name="P:SqlServer.DatosGlobales.DatosGlobales.Password">
+	<summary> 
+ Password del Usuario de la BD. 
+ </summary>
+</member><member name="P:SqlServer.DatosGlobales.DatosGlobales.CadenaConexion">
+	<summary> 
+ Cadena de conexión completa a la base. 
+ </summary>
+</member><member name="P:SqlServer.DatosGlobales.DatosGlobales.Conexion">
+	<summary> 
+ Crea u obtiene un objeto para conectarse a la base de dtaos. 
+ </summary>
+</member><member name="M:SqlServer.DatosGlobales.DatosGlobales.TraerDataset(System.String)">
+	<summary> 
+ Obtiene un DataSet a partir de un Procedimiento Almacenado. 
+ </summary>
+</member><member name="M:SqlServer.DatosGlobales.DatosGlobales.TraerDataset(System.String,System.Object[])">
+	<summary> 
+ Obtiene un DataSet a partir de un Procedimiento Almacenado y sus parámetros. 
+ </summary>
+</member><member name="M:SqlServer.DatosGlobales.DatosGlobales.TraerDataset(System.String,System.String[],System.Object[])">
+	<summary>
+ Obtiene un DataSet a partir de un Procedimiento Almacenado y sus parámetros de entrada y salida
+ </summary>
+	<param name="ProcedimientoAlmacenado"></param>
+	<param name="Parametros"></param>
+	<param name="Args"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SqlServer.DatosGlobales.DatosGlobales.TraerDatasetConsulta(System.String)">
+	<summary>
+ Obtiene un DataSet a partir de un Query Sql.
+ </summary>
+	<param name="Consulta"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SqlServer.DatosGlobales.DatosGlobales.TraerDataTable(System.String)">
+	<summary> 
+ Obtiene un DataTable a partir de un Procedimiento Almacenado. 
+ </summary>
+</member><member name="M:SqlServer.DatosGlobales.DatosGlobales.TraerDataTableConsulta(System.String)">
+	<summary>
+ btiene un DataTable a partir de un Query Sql.
+ </summary>
+	<param name="Consulta"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SqlServer.DatosGlobales.DatosGlobales.TraerDataTable(System.String,System.Object[])">
+	<summary> 
+ Obtiene un DataSet a partir de un Procedimiento Almacenado y sus parámetros. 
+ </summary>
+</member><member name="M:SqlServer.DatosGlobales.DatosGlobales.TraerDataTable(System.String,System.String[],System.Object[])">
+	<summary>
+ Obtiene un DataTable a partir de un Procedimiento Almacenado y sus parámetros de entrada y salida
+ </summary>
+	<param name="ProcedimientoAlmacenado"></param>
+	<param name="Parametros"></param>
+	<param name="Args"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SqlServer.DatosGlobales.DatosGlobales.TraerDataReader(System.String)">
+	<summary> 
+ Obtiene un DataReader a partir de un Procedimiento Almacenado. 
+ </summary>
+</member><member name="M:SqlServer.DatosGlobales.DatosGlobales.TraerDataReader(System.String,System.Object[])">
+	<summary> 
+ Obtiene un DataReader a partir de un Procedimiento Almacenado y sus parámetros. 
+ </summary>
+</member><member name="M:SqlServer.DatosGlobales.DatosGlobales.TraerValor(System.String)">
+	<summary> 
+ Obtiene un Valor a partir de un Procedimiento Almacenado. 
+ </summary>
+</member><member name="M:SqlServer.DatosGlobales.DatosGlobales.TraerValorEscalar(System.String)">
+	<summary> 
+ Obtiene un Valor Escalar a partir de un Procedimiento Almacenado. 
+ </summary>
+</member><member name="M:SqlServer.DatosGlobales.DatosGlobales.TraerValorEscalar(System.String,System.Object[])">
+	<summary> 
+ Obtiene un Valor Escalar a partir de un Procedimiento Almacenado, con Params de Entrada
+ </summary>
+</member><member name="M:SqlServer.DatosGlobales.DatosGlobales.TraerValorEscalar(System.String,System.String[],System.Object[])">
+	<summary> 
+ Obtiene un Valor Escalar a partir de un Procedimiento Almacenado, con Params de Entrada y parametros definidos
+ </summary>
+</member><member name="M:SqlServer.DatosGlobales.DatosGlobales.TraerValor(System.String,System.Object[])">
+	<summary> 
+ Obtiene un Valor a partir de un Procedimiento Almacenado, y sus parámetros. 
+ </summary>
+</member><member name="M:SqlServer.DatosGlobales.DatosGlobales.Ejecutar(System.String)">
+	<summary> 
+ Ejecuta un Procedimiento Almacenado en la base. 
+ </summary>
+</member><member name="M:SqlServer.DatosGlobales.DatosGlobales.Ejecutar(System.String,System.Object[])">
+	<summary> 
+ Ejecuta un Procedimiento Almacenado en la base, utilizando los parámetros. 
+ </summary>
+</member><member name="M:SqlServer.DatosGlobales.DatosGlobales.IniciarTransaccion">
+	<summary> 
+ Comienza una Transacción en la base en uso. 
+ </summary>
+</member><member name="M:SqlServer.DatosGlobales.DatosGlobales.TerminarTransaccion">
+	<summary> 
+ Confirma la transacción activa. 
+ </summary>
+</member><member name="M:SqlServer.DatosGlobales.DatosGlobales.AbortarTransaccion">
+	<summary> 
+ Cancela la transacción activa. 
+ </summary>
+</member><member name="T:SqlServer.DatosGlobales.DatosGlobales">
+	<summary> 
+ Clase abstracta de acceso a Datos. 
+ </summary>
+</member><member name="P:SqlServer.Datos.DatosSQLServer.CadenaConexion">
+	<summary>
+	</summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SqlServer.Datos.DatosSQLServer.CargarParametros(System.Data.IDbCommand,System.Object[])">
+	<summary>
+	</summary>
+	<param name="Com"></param>
+	<param name="Args"></param>
+	<remarks></remarks>
+</member><member name="M:SqlServer.Datos.DatosSQLServer.CargarParametros(System.Data.IDbCommand,System.String[],System.Object[])">
+	<summary>
+	</summary>
+	<param name="Com"></param>
+	<param name="Parametros"></param>
+	<param name="Args"></param>
+	<remarks></remarks>
+</member><member name="M:SqlServer.Datos.DatosSQLServer.Comando(System.String)">
+	<summary>
+	</summary>
+	<param name="ProcedimientoAlmacenado"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SqlServer.Datos.DatosSQLServer.ComandoConsulta(System.String)">
+	<summary>
+	</summary>
+	<param name="Consulta"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SqlServer.Datos.DatosSQLServer.CrearConexion(System.String)">
+	<summary>
+	</summary>
+	<param name="CadenaConexion"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SqlServer.Datos.DatosSQLServer.CrearDataAdapter(System.String,System.Object[])">
+	<summary>
+	</summary>
+	<param name="ProcedimientoAlmacenado"></param>
+	<param name="Args"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SqlServer.Datos.DatosSQLServer.CrearDataAdapterConsulta(System.String)">
+	<summary>
+	</summary>
+	<param name="Consulta"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SqlServer.Datos.DatosSQLServer.CrearDataAdapter(System.String,System.String[],System.Object[])">
+	<summary>
+	</summary>
+	<param name="ProcedimientoAlmacenado"></param>
+	<param name="Parametros"></param>
+	<param name="Args"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SqlServer.Datos.DatosSQLServer.#ctor(System.String)">
+	<summary>
+	</summary>
+	<param name="CadenaConexion"></param>
+	<remarks></remarks>
+</member>
+</members>
+</doc>
